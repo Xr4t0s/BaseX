@@ -21,6 +21,7 @@ python3 -m ensurepip
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 
+venv/bin/python3 -m PyInstaller --onefile --name BaseXSetup setup.py --clean
 venv/bin/python3 -m PyInstaller --onefile --name BaseX main.py --clean
 
 echo "✔ Compilation successful! There are 2 files in the dist folder: BaseXSetup and BaseX."

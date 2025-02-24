@@ -36,6 +36,7 @@ python -m ensurepip
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 
+venv\Scripts\python.exe -m PyInstaller --onefile --name BaseXSetup.exe setup.py --clean
 venv\Scripts\python.exe -m PyInstaller --onefile --name BaseX.exe main.py --clean
 
 echo ✔ Compilation successful! There are 2 files in the dist folder: BaseXSetup and BaseX.
