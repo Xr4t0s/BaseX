@@ -5,7 +5,7 @@ A Python bot that **scrapes X** to detect **Ethereum contract addresses** and au
 ---
 
 ## **📌 Features**
-👉 Scrapes X to detect ETH addresses (`0x...`) \n
+👉 Scrapes X to detect ETH addresses (`0x...`)
 👉 Automatically sends detected contracts to Telegram
 👉 Easy configuration using a **`.env` file**
 👉 Uses **Telethon** to work with **your own Telegram account**
