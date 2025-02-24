@@ -16,6 +16,8 @@ x_scraper = X()
 telegram_bot = TelegramBot(api_id, api_hash, phone_number, contact_username)
 
 def main():
+    print("If first login we need to connect")
+    telegram_bot.send("This is the first login message, if you see this it means that all is working good")
     while True:
         print("🔄 Checking new posts...")
         tweets = x_scraper.scrape_tweets(target)
