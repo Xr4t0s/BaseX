@@ -5,11 +5,6 @@ if ! command -v python3 &> /dev/null; then
     sudo apt update && sudo apt install -y python3 python3-venv python3-pip
 fi
 
-if ! command -v git &> /dev/null; then
-    echo "Git not found. Installing..."
-    sudo apt install -y git
-fi
-
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
     python3 -m venv venv

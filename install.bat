@@ -11,16 +11,6 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-where git >nul 2>nul
-if %errorlevel% neq 0 (
-    echo Git not found. Installing...
-    powershell -Command "& {Invoke-WebRequest -Uri 'https://github.com/git-for-windows/git/releases/latest/download/Git-64-bit.exe' -OutFile 'git-installer.exe'}"
-    start /wait git-installer.exe /VERYSILENT /NORESTART /SP-
-    del git-installer.exe
-    echo Git installed successfully. Please restart your terminal and run this script again.
-    exit /b
-)
-
 powershell -Command "Set-ExecutionPolicy Unrestricted -Scope Process -Force"
 
 set "PATH=%PATH%;%USERPROFILE%\AppData\Local\Programs\Python\Python3*;%USERPROFILE%\AppData\Local\Programs\Python\Python3*\Scripts"
