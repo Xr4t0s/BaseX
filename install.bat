@@ -39,7 +39,7 @@ pip install -r requirements.txt
 venv\Scripts\python.exe -m PyInstaller --onefile --name BaseXSetup.exe setup.py --clean
 venv\Scripts\python.exe -m PyInstaller --onefile --name BaseX.exe main.py --clean
 
-echo ✔ Compilation successful! There are 2 files in the dist folder: BaseXSetup and BaseX.
+echo Compilation successful! There are 2 files in the dist folder: BaseXSetup and BaseX.
 echo - First, run Setup and enter your Telegram information.
 echo - Then execute BaseX once to create a Telegram link to your account, allowing you to send messages from your computer.
 
