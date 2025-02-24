@@ -2,3 +2,4 @@ requests
 python-dotenv
 telethon
 bs4
+pyinstaller
