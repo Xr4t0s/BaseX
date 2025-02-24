@@ -9,7 +9,7 @@ load_dotenv()
 api_id = os.getenv("TG_ID")
 api_hash = os.getenv("TG_HASH")
 phone_number = os.getenv("PHONE")
-contact_username = os.getenv("BROKER")
+contact_username = os.getenv("CONTACT")
 target = os.getenv("TARGET")
 
 x_scraper = X()

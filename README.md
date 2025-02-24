@@ -47,7 +47,7 @@ Enter your details when prompted.
 ### **2️⃣ Get your phone number and target contact**
 - `PHONE` : Your phone number **with country code** (e.g., `+33612345678`)
 - `TARGET` : The **username** of the person you are traking (e.g., `username`)
-- `BROKER` : The **Sigma** @ you're using (ex: `SigmaTrading9_Bot`)
+- `CONTACT` : The **contact** @ you want to send the message (ex: `SigmaTrading_Bot`)
 ---
 
 ## **📌 Run the bot**
@@ -64,7 +64,6 @@ The bot will check Twitter **every 60 seconds** and send new contracts to Telegr
 🚀 New contract detected!
 📌 Address: 0x1234567890abcdef1234567890abcdef12345678
 ```
-You can send it directly to sigma and you can combine with autobuy
 ---
 
 ## **📌 Future Improvements**

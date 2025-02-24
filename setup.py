@@ -7,14 +7,14 @@ def create_env_file():
     tg_id = input("🔹 Enter your telegram_id (API ID Telegram) : ").strip()
     tg_hash = input("🔹 Entrer your telegram_hash (API Hash Telegram) : ").strip()
     phone = input("🔹 Enter your phone number (international format) : ").strip()
-    broker = input("🔹 Enter the @ of you're SigmaTrading bot : ").strip()
+    contact = input("🔹 Enter the @ of you're SigmaTrading bot : ").strip()
     target = input("🔹 Enter the X target to track (ex: infecteddotfun) : ").strip()
 
     # Contenu du fichier .env
     env_content = f"""TG_ID={tg_id}
 TG_HASH={tg_hash}
 PHONE={phone}
-BROKER={broker}
+CONTACT={contact}
 TARGET={target}
 """
 
