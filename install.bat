@@ -34,7 +34,7 @@ echo Compiling BaseX...
 venv\Scripts\python.exe -m PyInstaller --onefile --noconfirm --name BaseX.exe main.py --clean >nul 2>&1
 
 echo.
-echo ✔ Compilation successful! The following files were created in the "dist" folder:
+echo Compilation successful! The following files were created in the "dist" folder:
 echo - BaseXSetup.exe (Run this first and enter your Telegram information).
 echo - BaseX.exe (Run this to create the Telegram link to your account).
 echo.
