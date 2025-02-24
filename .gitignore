@@ -1,0 +1,40 @@
+utils/
+# 🔹 Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# 🔹 Sessions Telethon
+*.session
+*.session-journal
+
+# 🔹 Clés API & Credentials (à garder en sécurité)
+.env
+config.json
+credentials.json
+secrets.json
+
+# 🔹 Logs et fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.sqlite
+*.db
+
+# 🔹 Dépendances Python (si besoin)
+venv/
+.env/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🔹 Fichiers système (Mac & Linux)
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+

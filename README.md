@@ -1,2 +1,2 @@
 # BaseX
-Tool to snipe launching X profile who post their CA.
+Tool to track launching tweets, when a launcher post his CA you can automatically buy it
