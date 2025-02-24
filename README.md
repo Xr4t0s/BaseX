@@ -1,11 +1,11 @@
 # BaseX
 
-A Python bot that **scrapes Twitter (X.com)** to detect **Ethereum contract addresses** and automatically sends the information to **Telegram**.
+A Python bot that **scrapes X** to detect **Ethereum contract addresses** and automatically sends the information to **Telegram**.
 
 ---
 
 ## **📌 Features**
-👉 Scrapes Twitter (via Nitter) to detect ETH addresses (`0x...`)
+👉 Scrapes X to detect ETH addresses (`0x...`) \n
 👉 Automatically sends detected contracts to Telegram
 👉 Easy configuration using a **`.env` file**
 👉 Uses **Telethon** to work with **your own Telegram account**
@@ -15,8 +15,8 @@ A Python bot that **scrapes Twitter (X.com)** to detect **Ethereum contract addr
 ## **📌 Installation**
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/your-username/web3-sniper-bot.git
-cd web3-sniper-bot
+git clone https://github.com/Xr4t0s/BaseX.git
+cd BaseX
 ```
 
 ### **2️⃣ Install dependencies**
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ### **3️⃣ Generate the `.env` file**
 Run the setup script:
 ```bash
-python setup_env.py
+python setup.py
 ```
 Enter your details when prompted.
 
@@ -46,8 +46,8 @@ Enter your details when prompted.
 
 ### **2️⃣ Get your phone number and target contact**
 - `PHONE` : Your phone number **with country code** (e.g., `+33612345678`)
-- `TARGET` : The **username** of the person/group where messages will be sent (e.g., `@username` or `@groupname`)
-
+- `TARGET` : The **username** of the person you are traking (e.g., `username`)
+- `BROKER` : The **Sigma** @ you're using (ex: `SigmaTrading9_Bot`)
 ---
 
 ## **📌 Run the bot**
@@ -64,7 +64,7 @@ The bot will check Twitter **every 60 seconds** and send new contracts to Telegr
 🚀 New contract detected!
 📌 Address: 0x1234567890abcdef1234567890abcdef12345678
 ```
-
+You can send it directly to sigma and you can combine with autobuy
 ---
 
 ## **📌 Future Improvements**
@@ -78,7 +78,7 @@ The bot will check Twitter **every 60 seconds** and send new contracts to Telegr
 Want to improve the project?  
 **Fork, PR, and suggestions are welcome!** 🔥
 
-📩 Contact: [@your_telegram](https://t.me/your_telegram)
+📩 Contact: [@xKr4t0s](https://t.me/xKr4t0s)
 
 ---
 
